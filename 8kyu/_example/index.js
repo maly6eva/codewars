@@ -1,3 +1,3 @@
-function example(m, n) {
-    return m + n;
+function repeatStr (n, s) {
+    return s.repeat(n);
 }
