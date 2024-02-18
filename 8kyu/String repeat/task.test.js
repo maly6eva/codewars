@@ -1,5 +1,7 @@
 describe('Tests', () => {
-    it('example', () => {
-        expect(example(1, 1)).toBe(2);
+    it('repeatStr', () => {
+        expect(repeatStr(3, "*")).toBe("***");
+        expect(repeatStr(5, "#")).toBe("#####");
+        expect(repeatStr(2, "ha ")).toBe("ha ha ");
     });
 });
