@@ -1,4 +1,4 @@
-function areYouPlayingBanjo(name) {
+export function areYouPlayingBanjo(name: string) {
     if (name[0] === "R" || name[0] === "r") {
         return name + " plays banjo";
     } else {

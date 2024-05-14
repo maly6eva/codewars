@@ -1,3 +1,5 @@
+import { areYouPlayingBanjo } from "./index";
+
 describe("Tests", () => {
     it("areYouPlayingBanjo", () => {
         expect(areYouPlayingBanjo("Adam")).toBe("Adam does not play banjo");
