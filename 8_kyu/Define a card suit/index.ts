@@ -1,4 +1,4 @@
-function defineSuit(card) {
+export function defineSuit(card: string) {
     if (card.includes("♣")) {
         return "clubs";
     }

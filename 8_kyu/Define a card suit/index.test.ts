@@ -1,3 +1,5 @@
+import { defineSuit } from "./index";
+
 describe("Tests", () => {
     it("defineSuit", () => {
         expect(defineSuit("Q♠")).toBe("spades");

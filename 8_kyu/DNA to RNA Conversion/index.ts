@@ -1,5 +1,4 @@
-const DNA = "GCAT";
-const DNAtoRNA = (DNA) => {
+export function dnaToRna(DNA: string): string {
     let res = "";
     for (let i = 0; i < DNA.length; i++) {
         if (DNA[i] === "T") {
@@ -9,5 +8,4 @@ const DNAtoRNA = (DNA) => {
         }
     }
     return res;
-};
-console.log(DNAtoRNA(DNA));
+}
