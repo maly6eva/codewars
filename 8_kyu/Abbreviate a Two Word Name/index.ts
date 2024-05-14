@@ -1,4 +1,4 @@
-export function abbrevName(name) {
+export function abbrevName(name: string) {
     return name
         .toUpperCase()
         .split(" ")

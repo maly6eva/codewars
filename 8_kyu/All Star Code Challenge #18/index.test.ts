@@ -1,3 +1,5 @@
+import { strCount } from "./index";
+
 describe("Tests", () => {
     it("strCount", () => {
         expect(strCount("Hello", "o")).toBe(1);
