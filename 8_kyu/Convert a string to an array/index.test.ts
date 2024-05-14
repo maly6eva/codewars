@@ -1,3 +1,5 @@
+import { stringToArray } from "./index";
+
 describe("Tests", () => {
     it("stringToArray", () => {
         expect(stringToArray("Robin Singh")).toEqual(["Robin", "Singh"]);
