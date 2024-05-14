@@ -1,3 +1,5 @@
+import { contamination } from "./index";
+
 describe("Tests", () => {
     it("contamination", () => {
         expect(contamination("abc", "z")).toBe("zzz");
