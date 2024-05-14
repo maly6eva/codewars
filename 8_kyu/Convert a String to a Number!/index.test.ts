@@ -1,3 +1,5 @@
+import { stringToNumber } from "./index";
+
 describe("Tests", () => {
     it("stringToNumber", () => {
         expect(stringToNumber("1234")).toBe(1234);
