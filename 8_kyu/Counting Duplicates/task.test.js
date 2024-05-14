@@ -1,5 +1,5 @@
-describe('Tests', () => {
-    it('duplicateCount', () => {
+describe("Tests", () => {
+    it("duplicateCount", () => {
         expect(duplicateCount("")).toBe(0);
         expect(duplicateCount("abcde")).toBe(0);
         expect(duplicateCount("aabbcde")).toBe(2);

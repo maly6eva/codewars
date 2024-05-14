@@ -1,8 +1,6 @@
 ## Sort and Star
 
-
 https://www.codewars.com/kata/57cfdf34902f6ba3d300001e
-
 
 You will be given a list of strings. You must sort it alphabetically (case-sensitive, and based on the ASCII values of the chars) and then return the first value.
 

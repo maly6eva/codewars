@@ -1,9 +1,9 @@
-function greet (name, owner) {
+function greet(name, owner) {
     if (name === owner) {
-        return 'Hello boss';
+        return "Hello boss";
     } else {
-        return 'Hello guest';
+        return "Hello guest";
     }
 }
-greet('Daniel', 'Daniel');
-greet('Greg', 'Daniel');
+greet("Daniel", "Daniel");
+greet("Greg", "Daniel");

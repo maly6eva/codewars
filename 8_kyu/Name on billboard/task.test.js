@@ -1,5 +1,5 @@
-describe('Tests', () => {
-    it('billboard', () => {
+describe("Tests", () => {
+    it("billboard", () => {
         expect(billboard("Jeong-Ho Aristotelis")).toBe(600);
         expect(billboard("Abishai Charalampos")).toBe(570);
         expect(billboard("Idwal Augustin")).toBe(420);

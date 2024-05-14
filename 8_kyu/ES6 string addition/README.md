@@ -1,8 +1,6 @@
 ## ES6 string addition
 
-
 https://www.codewars.com/kata/582e4c3406e37fcc770001ad
-
 
 It is easy to join two strings together like this `string1 + string2`.
 

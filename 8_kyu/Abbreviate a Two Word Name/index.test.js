@@ -1,5 +1,7 @@
-describe('Tests', () => {
-    it('abbrevName', () => {
+import { abbrevName } from "./index";
+
+describe("Tests", () => {
+    it("abbrevName", () => {
         expect(abbrevName("Sam Harris")).toBe("S.H");
         expect(abbrevName("Patrick Feenan")).toBe("P.F");
         expect(abbrevName("Evan Cole")).toBe("E.C");
@@ -7,6 +9,3 @@ describe('Tests', () => {
         expect(abbrevName("David Mendieta")).toBe("D.M");
     });
 });
-
-
-

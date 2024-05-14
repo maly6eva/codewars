@@ -7,7 +7,7 @@
         "test": "jest",
         "coverage": "jest --coverage",
         "lint": "eslint \"./*_kyu/**/*.{ts,js}\"",
-        "lint:fix": "eslint --fix \"./*kyu/**/*.ts\"",
+        "lint:fix": "eslint --fix \"./*kyu/**/*.{ts,js}\"",
         "format": "prettier --write \"./*_kyu/**/*.{js,jsx,ts,tsx,json,css,scss,md}\" --ignore-path ./.prettierignore",
         "count": "ts-node ./count.ts",
         "prepare": "husky"

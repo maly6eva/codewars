@@ -1,5 +1,5 @@
-describe('Tests', () => {
-    it('contamination', () => {
+describe("Tests", () => {
+    it("contamination", () => {
         expect(contamination("abc", "z")).toBe("zzz");
         expect(contamination("", "z")).toBe("");
         expect(contamination("abc", "")).toBe("");

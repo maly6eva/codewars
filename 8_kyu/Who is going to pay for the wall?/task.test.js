@@ -1,5 +1,5 @@
-describe('Tests', () => {
-    it('whoIsPaying', () => {
+describe("Tests", () => {
+    it("whoIsPaying", () => {
         expect(whoIsPaying("Mexico")).toBe(["Mexico", "Me"]);
         expect(whoIsPaying("Melania")).toBe(["Melania", "Me"]);
         expect(whoIsPaying("Melissa")).toBe(["Melissa", "Me"]);

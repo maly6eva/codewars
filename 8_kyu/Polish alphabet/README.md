@@ -1,8 +1,6 @@
 ## Polish alphabet
 
-
 https://www.codewars.com/kata/57ab2d6072292dbf7c000039
-
 
 There are 32 letters in the Polish alphabet: 9 vowels and 23 consonants.
 
@@ -21,4 +19,4 @@ and print out the string without the use of the Polish letters.
 
 For example:
 
-"Jędrzej Błądziński"  -->  "Jedrzej Bladzinski"
+"Jędrzej Błądziński" --> "Jedrzej Bladzinski"

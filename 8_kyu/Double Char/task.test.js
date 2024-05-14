@@ -1,5 +1,5 @@
-describe('Tests', () => {
-    it('doubleChar', () => {
+describe("Tests", () => {
+    it("doubleChar", () => {
         expect(doubleChar("abcd")).toBe("aabbccdd");
         expect(doubleChar("Adidas")).toBe("AAddiiddaass");
         expect(doubleChar("1337")).toBe("11333377");

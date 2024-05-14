@@ -1,5 +1,5 @@
 function duplicateCount(text) {
-    const str = text.toUpperCase().split('').sort().join('');
+    const str = text.toUpperCase().split("").sort().join("");
     const arr = str.match(/(.)\1+/g);
 
     if (arr === null) {
@@ -8,4 +8,3 @@ function duplicateCount(text) {
         return arr.length;
     }
 }
-

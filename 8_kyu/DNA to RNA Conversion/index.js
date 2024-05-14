@@ -1,6 +1,6 @@
-const DNA = 'GCAT';
+const DNA = "GCAT";
 const DNAtoRNA = (DNA) => {
-    let res = '';
+    let res = "";
     for (let i = 0; i < DNA.length; i++) {
         if (DNA[i] === "T") {
             res += "U";

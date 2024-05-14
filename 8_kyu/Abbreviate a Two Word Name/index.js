@@ -1,3 +1,7 @@
-function abbrevName(name) {
-    return name.toUpperCase().split(' ').map(x => x[0]).join('.');
+export function abbrevName(name) {
+    return name
+        .toUpperCase()
+        .split(" ")
+        .map((x) => x[0])
+        .join(".");
 }

@@ -1,8 +1,8 @@
-let uniqueInOrder = function(iterable) {
+let uniqueInOrder = function (iterable) {
     if (iterable.length === 0) {
         return [];
     }
-    if (typeof iterable == 'string') {
+    if (typeof iterable == "string") {
         iterable = iterable.split("");
     }
 
