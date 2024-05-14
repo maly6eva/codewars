@@ -2,7 +2,6 @@ module.exports = {
     env: {
         browser: true,
         es6: true,
-        mocha: true,
     },
     parser: 'babel-eslint',
     parserOptions: {
@@ -31,8 +30,8 @@ module.exports = {
 
         'indent': [
             'warn', 4, {
-                // continuation indent
                 MemberExpression: 'off',
+                SwitchCase: 1,
             },
         ],
 
@@ -66,4 +65,4 @@ module.exports = {
         'no-this-before-super': 'warn',
         'no-var': 'warn',
     },
-};
+}
