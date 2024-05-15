@@ -1,3 +1,4 @@
+import { countSheep } from "./index";
 describe("Tests", () => {
     it("countSheep", () => {
         expect(countSheep(0)).toBe("");
