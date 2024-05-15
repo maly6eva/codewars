@@ -1,3 +1,5 @@
+import { getNumberFromString } from "./index";
+
 describe("Tests", () => {
     it("getNumberFromString", () => {
         expect(getNumberFromString("1")).toBe(1);
