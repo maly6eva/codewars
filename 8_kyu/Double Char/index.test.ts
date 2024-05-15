@@ -1,3 +1,4 @@
+import { doubleChar } from "./index";
 describe("Tests", () => {
     it("doubleChar", () => {
         expect(doubleChar("abcd")).toBe("aabbccdd");

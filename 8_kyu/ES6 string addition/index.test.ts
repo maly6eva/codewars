@@ -1,3 +1,5 @@
+import { joinStrings } from "./index";
+
 describe("Tests", () => {
     it("joinStrings", () => {
         expect(joinStrings("string1", "string2")).toBe("string1 string2");
