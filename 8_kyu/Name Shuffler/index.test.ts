@@ -1,3 +1,5 @@
+import { nameShuffler } from "./index";
+
 describe("Tests", () => {
     it("nameShuffler", () => {
         expect(nameShuffler("john McClane")).toBe("McClane john");
