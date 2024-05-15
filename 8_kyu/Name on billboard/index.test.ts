@@ -1,3 +1,5 @@
+import { billboard } from "./index";
+
 describe("Tests", () => {
     it("billboard", () => {
         expect(billboard("Jeong-Ho Aristotelis")).toBe(600);
