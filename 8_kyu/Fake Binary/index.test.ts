@@ -1,3 +1,5 @@
+import { fakeBin } from "./index";
+
 describe("Tests", () => {
     it("fakeBin", () => {
         expect(fakeBin("45385593107843568")).toBe("01011110001100111");
