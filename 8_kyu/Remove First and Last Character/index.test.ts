@@ -1,3 +1,5 @@
+import { removeChar } from "./index";
+
 describe("Tests", () => {
     it("removeChar", () => {
         expect(removeChar("eloquent")).toBe("loquen");
