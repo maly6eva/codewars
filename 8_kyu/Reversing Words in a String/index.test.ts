@@ -1,3 +1,4 @@
+import { reverse } from "./index";
 describe("Tests", () => {
     it("reverse", () => {
         expect(reverse("I am an expert at this")).toBe("this at expert an am I");
