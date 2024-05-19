@@ -1,3 +1,5 @@
+import { htmlspecialchars } from "./index";
+
 describe("Tests", () => {
     it("htmlspecialcharsr", () => {
         expect(htmlspecialchars("<h2>Hello World</h2>")).toBe("&lt;h2&gt;Hello World&lt;/h2&gt;");
