@@ -1,3 +1,5 @@
+import { smash } from "./index";
+
 describe("Tests", () => {
     it("smash", () => {
         expect(smash(["hello", "world"])).toBe("hello world");
