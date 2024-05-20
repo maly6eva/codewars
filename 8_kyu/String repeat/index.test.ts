@@ -1,3 +1,5 @@
+import { repeatStr } from "./index";
+
 describe("Tests", () => {
     it("repeatStr", () => {
         expect(repeatStr(3, "*")).toBe("***");
