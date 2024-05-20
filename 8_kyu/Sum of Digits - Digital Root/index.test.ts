@@ -1,3 +1,5 @@
+import { digitalRoot } from "./index";
+
 describe("Tests", () => {
     it("digitalRoot", () => {
         expect(digitalRoot(16)).toBe(7);

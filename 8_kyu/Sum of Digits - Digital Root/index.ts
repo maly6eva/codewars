@@ -1,4 +1,4 @@
-function digitalRoot(n) {
+export function digitalRoot(n: number): number {
     const numberStr = n.toString();
     if (numberStr.length === 1) {
         return n;
