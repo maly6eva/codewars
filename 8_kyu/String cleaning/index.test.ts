@@ -1,3 +1,5 @@
+import { stringClean } from "./index";
+
 describe("Tests", () => {
     it("stringClean", () => {
         expect(stringClean("")).toBe("");
