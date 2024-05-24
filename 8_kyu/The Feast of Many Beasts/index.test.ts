@@ -1,3 +1,5 @@
+import{feast} from './index'
+
 describe("Tests", () => {
     it("feast", () => {
         expect(feast("great blue heron", "garlic naan")).toBeTrue();
