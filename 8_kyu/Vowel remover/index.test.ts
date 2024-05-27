@@ -1,3 +1,5 @@
+import { shortcut } from "./index";
+
 describe("Tests", () => {
     it("shortcut", () => {
         expect(shortcut("hello")).toBe("hll");
